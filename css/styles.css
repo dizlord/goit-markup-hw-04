@@ -371,7 +371,7 @@ img {
 .filter-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 50 px;
+    margin-bottom: 50px;
 }
 
 /* Margin for filter's btn */
