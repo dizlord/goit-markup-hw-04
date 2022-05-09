@@ -3,7 +3,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --accent-hero-color: #188CE8;
-    --hero-bg-color: #2F303A;
+    --hero-bg-color: #C4C4C4;
     --primary-bg-color: #FFFFFF;
     --team-bg-color: #F5F4FA;
     --logo-primery-color: #000000;
@@ -146,11 +146,22 @@ img {
 
 /* class for section hero */
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-
     background-color: var(--hero-bg-color);
     text-align: center;
+}
+
+/* Hero container */
+.hero-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* class for hero title */
