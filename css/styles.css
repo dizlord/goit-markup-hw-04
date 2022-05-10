@@ -611,3 +611,5 @@ img {
     border-bottom: 1px solid var(--border-card-color);
     border-left: 1px solid var(--border-card-color);
 }
+
+/* TODO: 1) snipets как работает (чтобы автоматически задавать для тега svg развертку) */
