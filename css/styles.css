@@ -105,10 +105,10 @@ img {
     fill: currentColor;
 }
 
-.contacts-paragraph {
+/* .contacts-paragraph {
     margin: 0;
     padding: 0;
-}
+} */
 
 /* Add special color to current link */
 .accent {
