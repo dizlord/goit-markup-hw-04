@@ -424,6 +424,7 @@ img {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 /* style for footer logo */
@@ -473,7 +474,7 @@ img {
 }
 
 .connect-title {
-    margin-top: 12px;
+    margin-top: 0;
     margin-bottom: 20px;
 
     font-weight: 700;
