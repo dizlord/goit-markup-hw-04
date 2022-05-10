@@ -251,12 +251,15 @@ img {
 }
 
 .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin-bottom: 30px;
 
     background-color: var(--team-bg-color);
     height: 120px;
     border-radius: 4px;
-    padding: 25px 100px;
 }
 
 .features-icon {
